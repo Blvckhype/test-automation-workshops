@@ -54,6 +54,7 @@ export class AppComponent {
   }
 
   isValidPesel(pesel) {
+    console.log(pesel);
     if (typeof pesel !== 'string') {
       return false;
     } else {
